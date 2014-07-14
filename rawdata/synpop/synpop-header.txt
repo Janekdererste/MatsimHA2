@@ -1,0 +1,1 @@
+ID;BirthYear;Sex;Income;LivesInZone;WorksInZone;MunicipalityID;DriversLic;Housingtype;HH_children;HH_adults;HH_lic;HH_car_available;HH_cars

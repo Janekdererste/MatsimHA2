@@ -1,0 +1,9 @@
+Sources (mainly):
+A national travel survey (RES 05/06) for sampling agents from
+Registry data for 2006 from Statistics Sweden for tabulations of totals in each zone 
+
+Variables:
+HH_* means household
+Sex: Men = 0, Women = 1
+Housing type: Single family = 0, Multi-family = 1 
+Income in SEK/year
