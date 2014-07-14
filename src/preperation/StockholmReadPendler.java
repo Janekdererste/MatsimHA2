@@ -18,7 +18,7 @@ public class StockholmReadPendler {
 	private void run() {
 
 		PendlerParser pp = new PendlerParser();
-		read("rawdata/synpop.csv", pp);
+		read("rawdata/synpop/synpop.csv", pp);
 		pp.printRows();
 
 	}
