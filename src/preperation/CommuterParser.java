@@ -24,6 +24,7 @@ public class CommuterParser implements TabularFileHandler {
 		config.setDelimiterRegex(";");
 		config.setFileName(filename);
 		config.setCommentRegex("#");
+		System.out.println("Start reading file: " + filename);
 		new TabularFileParser().parse(config, this);
 	}
 
