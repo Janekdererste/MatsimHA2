@@ -14,15 +14,15 @@
         <param name="outputDirectory" value="output01/" />
     	<param name="mobsim" value="qsim" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="100" />
+		<param name="lastIteration" value="10" />
         <param name="eventsFileFormat" value="xml" />
     </module>
  
  <module name="qsim"> 
  <param name="startTime" value="00:00:00" /> 
  <param name="endTime" value="24:00:00" />
- <param name="flowCapacityFactor" value="0.008" /> 
- <param name="storageCapacityFactor" value="0.025" /> 
+ <param name="flowCapacityFactor" value="1" /> 
+ <param name="storageCapacityFactor" value="1" /> 
  
  <param name="stuckTime" value="10" /> 
  <param name="removeStuckVehicles" value="yes" /> 

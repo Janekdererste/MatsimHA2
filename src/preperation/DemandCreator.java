@@ -60,14 +60,16 @@ public class DemandCreator {
 		double perc = startPercentages[arrCounter];
 
 
-		while(counter <= commuters.size() * SCALEFACTOR)
+		//while(counter <= commuters.size() * SCALEFACTOR)
+		while(counter <= 5000)
 		{
-			if(counter >= commuters.size() * perc)
+			/*if(counter >= 5000 * perc)
 			{
+
 				arrCounter++;
 				perc += startPercentages[arrCounter];
 				timeRoot = timeRoot + 1;
-			}
+			}*/
 			int i = (int) (Math.random() * commuters.size());			
 			Person person = createMatsimPerson(commuters.get(i), timeRoot);
 			if(person == null)
@@ -114,7 +116,7 @@ public class DemandCreator {
 		Activity home = pf.createActivityFromCoord("home", homeCoord);
 		
 		// create random time to leave home
-		double start = Math.random() * 1 + timeRoot; // starting time between 6 and 9
+		double start = Math.random() * 3 + timeRoot; // starting time between 6 and 9
 		double end = Math.random() * 3 + 7; // end time between 7 and 10 houres
 											// later than start
 

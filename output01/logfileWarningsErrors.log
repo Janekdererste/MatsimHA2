@@ -1,0 +1,15 @@
+2014-07-19 14:46:27,739  WARN OutputDirectoryHierarchy:164 ###########################################################
+2014-07-19 14:46:27,739  WARN OutputDirectoryHierarchy:165 ### THE CONTROLER WILL OVERWRITE FILES IN:
+2014-07-19 14:46:27,739  WARN OutputDirectoryHierarchy:166 ### output01
+2014-07-19 14:46:27,739  WARN OutputDirectoryHierarchy:167 ###########################################################
+2014-07-19 14:50:30,706  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:30,717  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-07-19 14:50:48,952  WARN ExpBetaPlanChanger:78 Would make sense to revise this once more.  See comments in code.  kai, nov08
