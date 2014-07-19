@@ -29,17 +29,23 @@ public class DemandCreator {
 	private final String NETWORKFILE = "rawdata/network_cleaned_simplified.xml.gz";
 	private final String COMMUTER = "rawdata/synpop/synpop.csv";
 	private final String COUNTIES = "rawdata/stockholm_county_shp/stockholm_county.shp";
-	private final String PLANS_OUTPUT = "input_nullfall/plans.xml";
+	private final String PLANS_OUTPUT = "input/plans.xml";
 	private final double SCALEFACTOR = 0.01;
 	
 	private Map<Integer, Geometry> counties;
 	private Scenario scenario;
+	private double[] startPercentages;
+	
 	
 	public DemandCreator()
 	{
 		this.scenario = ScenarioUtils.createScenario(ConfigUtils.createConfig());
 		new MatsimNetworkReader(scenario).readFile(NETWORKFILE);
 		counties = ShapeReader.readShapeFile(COUNTIES, "ZONE");
+		startPercentages = new double[] { 0.075, 0.203, 0.199, 0.187, 0.17, 0.166 };
+		
+				
+		
 	}	
 	
 	public void createDemand()
@@ -49,11 +55,21 @@ public class DemandCreator {
 		List<Commuter> commuters = parser.getCommuters();
 		
 		int counter = 0;		
-		
+		int arrCounter = 0;
+		double timeRoot = 4.5; //alle die zwischen 5 und 6 gezählt werden fahren bestimmt zwischen 4:30 und 5:30 los.
+		double perc = startPercentages[arrCounter];
+
+
 		while(counter <= commuters.size() * SCALEFACTOR)
 		{
+			if(counter >= commuters.size() * perc)
+			{
+				arrCounter++;
+				perc += startPercentages[arrCounter];
+				timeRoot = timeRoot + 1;
+			}
 			int i = (int) (Math.random() * commuters.size());			
-			Person person = createMatsimPerson(commuters.get(i));
+			Person person = createMatsimPerson(commuters.get(i), timeRoot);
 			if(person == null)
 				continue;
 			try
@@ -77,7 +93,7 @@ public class DemandCreator {
 		pw.write(PLANS_OUTPUT);
 	}
 	
-	private Person createMatsimPerson(Commuter commuter)
+	private Person createMatsimPerson(Commuter commuter, double timeRoot)
 	{
 		//person is not part of the workforce, if there is no workingplace
 		Coord homeCoord;
@@ -98,7 +114,7 @@ public class DemandCreator {
 		Activity home = pf.createActivityFromCoord("home", homeCoord);
 		
 		// create random time to leave home
-		double start = Math.random() * 3 + 6; // starting time between 6 and 9
+		double start = Math.random() * 1 + timeRoot; // starting time between 6 and 9
 		double end = Math.random() * 3 + 7; // end time between 7 and 10 houres
 											// later than start
 

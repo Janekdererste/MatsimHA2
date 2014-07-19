@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<counts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://matsim.org/files/dtd/counts_v1.xsd" name="name of the dataset" desc="describe the dataset" year="yyyy" layer="0">
+<counts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://matsim.org/files/dtd/counts_v1.xsd" name="name of the dataset" desc="Stockholm HA1" year="2014" layer="0">
    <count loc_id="49614-64059" cs_id="E4N">
       <volume h="5" val="2484"></volume>
       <volume h="6" val="6086"></volume>
