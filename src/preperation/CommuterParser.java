@@ -12,7 +12,6 @@ import structures.Commuter;
 public class CommuterParser implements TabularFileHandler {
 
 	private ArrayList<Commuter> commuters;
-	private int i = 0;
 	
 	public List<Commuter> getCommuters()
 	{
@@ -52,8 +51,6 @@ public class CommuterParser implements TabularFileHandler {
 		cc.setHhCars(row[13]);
 
 		this.commuters.add(cc);
-		//System.out.println(i);
-		i++;
 	}
 
 }
