@@ -26,8 +26,8 @@
  <module name="qsim"> 
  <param name="startTime" value="00:00:00" /> 
  <param name="endTime" value="24:00:00" />
- <param name="flowCapacityFactor" value="1" /> 
- <param name="storageCapacityFactor" value="1" /> 
+ <param name="flowCapacityFactor" value="0.01" /> 
+ <param name="storageCapacityFactor" value="0.01" /> 
  
  <param name="stuckTime" value="10" /> 
  <param name="removeStuckVehicles" value="yes" /> 

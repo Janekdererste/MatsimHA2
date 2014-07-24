@@ -45,7 +45,6 @@ class PendlerParser implements TabularFileHandler {
 	}	
 	
 
-	@Override
 	public void startRow(String[] row) {		
 		
 		currentFrom = row[4];
