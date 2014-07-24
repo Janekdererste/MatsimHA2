@@ -63,14 +63,19 @@ public class DemandCreator {
 		while(counter <= commuters.size() * SCALEFACTOR)
 		//while(counter <= 5000)
 		{
+			int i = (int) (Math.random() * commuters.size());			
+			Commuter commuter = commuters.get(i);
+			if(!commuter.isCarAvailable() || !commuter.isHasDriversLiscence())
+				continue;
+			
 			if(counter >= commuters.size() * SCALEFACTOR * perc)
 			{
 				arrCounter++;
 				perc += startPercentages[arrCounter];
 				timeRoot = timeRoot + 1;
 			}
-			int i = (int) (Math.random() * commuters.size());			
-			Person person = createMatsimPerson(commuters.get(i), timeRoot);
+			
+			Person person = createMatsimPerson(commuter, timeRoot);
 			if(person == null)
 				continue;
 			try
@@ -86,7 +91,7 @@ public class DemandCreator {
 			counter++;
 		}
 		
-		System.out.println("finished crating population");
+		System.out.println("finished creating population");
 		System.out.println("Population size: " + scenario.getPopulation().getPersons().size());
 		System.out.println("Counter: " + counter);
 		

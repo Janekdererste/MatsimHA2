@@ -19,7 +19,7 @@ public class CommuterParser implements TabularFileHandler {
 	}
 
 	public void readData(String filename) {
-		this.commuters = new ArrayList<>();
+		this.commuters = new ArrayList<Commuter>();
 		TabularFileParserConfig config = new TabularFileParserConfig();
 		config.setDelimiterRegex(";");
 		config.setFileName(filename);
@@ -28,7 +28,6 @@ public class CommuterParser implements TabularFileHandler {
 		new TabularFileParser().parse(config, this);
 	}
 
-	@Override
 	public void startRow(String[] row) {
 		// row should be 14 entries long
 		if (row.length != 14)
