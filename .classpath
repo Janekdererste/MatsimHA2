@@ -26,38 +26,9 @@
 	<classpathentry kind="lib" path="libs/kml-2.2.0.jar"/>
 	<classpathentry kind="lib" path="libs/log4j-1.2.15.jar"/>
 	<classpathentry kind="lib" path="libs/matsim-0.5.0-sources.jar"/>
-	<classpathentry kind="lib" path="libs/matsim-0.5.0.jar" sourcepath="C:/Users/robin_000/MATSim/matsim-0.5.0/matsim-0.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/matsim-0.5.0.jar"/>
 	<classpathentry kind="lib" path="libs/vecmath-1.3.2.jar"/>
 	<classpathentry kind="lib" path="libs/xercesImpl-2.7.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/matsim-0.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/matsim-0.5.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/activation-2.1.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/commons-pool-1.5.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-api-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-data-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-epsg-hsql-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-main-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-metadata-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-opengis-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-referencing-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/gt-shapefile-2.7.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/hsqldb-1.8.0.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jai_core-1.1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jaxb-api-2.1.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jaxb-impl-2.1.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jaxb-xjc-2.1.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jcommon-1.0.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jdom-1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jfreechart-1.0.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jgap-3.4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jsr173-2.1.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jsr-275-1.0-beta-2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/jts-1.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/kml-2.2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/vecmath-1.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/robin_000/MATSim/matsim-0.5.0/libs/xercesImpl-2.7.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
