@@ -26,8 +26,8 @@
  <module name="qsim"> 
  <param name="startTime" value="00:00:00" /> 
  <param name="endTime" value="24:00:00" />
- <param name="flowCapacityFactor" value="0.008" /> 
- <param name="storageCapacityFactor" value="0.0025" /> 
+ <param name="flowCapacityFactor" value="0.09" /> 
+ <param name="storageCapacityFactor" value="0.03" /> 
  
  <param name="stuckTime" value="10" /> 
  <param name="removeStuckVehicles" value="yes" /> 
@@ -70,7 +70,7 @@
 		
 		<param name="ModuleProbability_3" value="0.2" />
         <param name="Module_3" value="TimeAllocationMutator" />
-		<param name="ModuleDisableAfterIteration_2" value="80" /> 
+		<param name="ModuleDisableAfterIteration_3" value="80" /> 
 
     </module>
 <module name="planscalcroute" >
