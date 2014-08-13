@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://matsim.org/files/dtd/counts_v1.xsd" name="name of the dataset" desc="Stockholm HA1" year="2014" layer="0">
+   <count loc_id="49614-64059" cs_id="E4N">
+      <volume h="5" val="2484"></volume>
+      <volume h="6" val="6086"></volume>
+      <volume h="7" val="4950"></volume>
+      <volume h="8" val="4660"></volume>
+      <volume h="9" val="4168"></volume>
+      <volume h="10" val="3972"></volume>
+   </count>
+   
+   <count loc_id="64083-63836" cs_id="E4Z">
+      <volume h="5" val="1351"></volume>
+      <volume h="6" val="4220"></volume>
+      <volume h="7" val="5029"></volume>
+      <volume h="8" val="4732"></volume>
+      <volume h="9" val="4382"></volume>
+      <volume h="10" val="4332"></volume>
+	 </count>
+</counts>
