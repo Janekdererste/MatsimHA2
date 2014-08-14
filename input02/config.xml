@@ -19,7 +19,7 @@
         <param name="outputDirectory" value="output02/" />
     	<param name="mobsim" value="qsim" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="1" />
+		<param name="lastIteration" value="100" />
         <param name="eventsFileFormat" value="xml" />
     </module>
  
