@@ -3,11 +3,11 @@
 <config>
 
     <module name="network">
-        <param name="inputNetworkFile" value="input/network_cleaned_simplified.xml" />
+        <param name="inputNetworkFile" value="input02/network_cleaned_simplified.xml" />
     </module>
 
     <module name="plans">
-        <param name="inputPlansFile" value="input/plans.xml" />
+        <param name="inputPlansFile" value="input02/plans.xml" />
     </module>
     
     <module name="global" >
@@ -16,7 +16,7 @@
     
 
     <module name="controler">
-        <param name="outputDirectory" value="output01/" />
+        <param name="outputDirectory" value="output02/" />
     	<param name="mobsim" value="qsim" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="1" />
@@ -36,7 +36,7 @@
  
  <module name="counts" > 
   <param name="countsScaleFactor" value="100" /> 
-  <param name="inputCountsFile" value="input/counts.xml" />
+  <param name="inputCountsFile" value="input02/counts.xml" />
   <param name="outputformat" value="kml" />
 </module> 
  
