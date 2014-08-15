@@ -29,9 +29,9 @@ public class DemandCreator {
 	private final String NETWORKFILE = "rawdata/network_cleaned_simplified.xml.gz";
 	private final String COMMUTER = "rawdata/synpop/synpop.csv";
 	private final String COUNTIES = "rawdata/stockholm_county_shp/stockholm_county.shp";
-	private final String PLANS_OUTPUT = "input/plans.xml";
+	private final String PLANS_OUTPUT = "input02/plans.xml";
 	private final double SCALEFACTOR = 0.01;
-	private final double PUBLIC_TRANSPORT_SHARE = 0;
+	private final double PUBLIC_TRANSPORT_SHARE = 0.35;
 	
 	private Map<Integer, Geometry> counties;
 	private Scenario scenario;
@@ -54,6 +54,7 @@ public class DemandCreator {
 		
 		int counter = 0;		
 		int arrCounter = 0;
+		int ptCounter = 0;
 		double timeRoot = 4.5; //alle die zwischen 5 und 6 gezählt werden fahren bestimmt zwischen 4:30 und 5:30 los.
 		double perc = startPercentages[arrCounter];
 		String mode;
@@ -70,12 +71,20 @@ public class DemandCreator {
 				arrCounter++;
 				perc += startPercentages[arrCounter];
 				timeRoot = timeRoot + 1;
+				ptCounter = 0; //reset pt counter, so it start for a new time slice
 			}
 			
-			if(PUBLIC_TRANSPORT_SHARE > (counter / (commuters.size() * SCALEFACTOR)))
+			//each time slice should have a certain number of pt riders
+			if(PUBLIC_TRANSPORT_SHARE > (ptCounter / (commuters.size() * SCALEFACTOR * startPercentages[arrCounter])))
+			{
 				mode = "pt";
+				System.out.println(mode + ", " + timeRoot + ", " + ptCounter + ", " + startPercentages[arrCounter]);
+			}
 			else
+			{
 				mode = "car";
+				System.out.println(mode + ", " + timeRoot + ", " + ptCounter + ", " + startPercentages[arrCounter]);
+			}
 			
 			Person person = createMatsimPerson(commuter, timeRoot, mode);
 			if(person == null)
@@ -91,6 +100,7 @@ public class DemandCreator {
 			}
 			System.out.println("Person added");
 			counter++;
+			ptCounter++;
 		}
 		
 		System.out.println("finished creating population");
