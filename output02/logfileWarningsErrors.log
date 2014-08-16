@@ -1,0 +1,37 @@
+2014-08-15 13:57:09,123  WARN OutputDirectoryHierarchy:164 ###########################################################
+2014-08-15 13:57:09,123  WARN OutputDirectoryHierarchy:165 ### THE CONTROLER WILL OVERWRITE FILES IN:
+2014-08-15 13:57:09,123  WARN OutputDirectoryHierarchy:166 ### output02
+2014-08-15 13:57:09,123  WARN OutputDirectoryHierarchy:167 ###########################################################
+2014-08-15 14:05:41,387  WARN QLinkImpl:551 Link 11333-11363 too small: enlarge storage capacity from: 1.5957222482039677 Vehicles to: 1.6755083606141663 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,466  WARN QLinkImpl:551 Link 18823 too small: enlarge storage capacity from: 1.3642943377533552 Vehicles to: 1.432509054641023 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,591  WARN QLinkImpl:551 Link 23509-76084-76064 too small: enlarge storage capacity from: 1.0294124551100912 Vehicles to: 1.0808830778655958 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,607  WARN QLinkImpl:551 Link 29357-59428-58722 too small: enlarge storage capacity from: 2.3301168040900615 Vehicles to: 2.446622644294565 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,607  WARN QLinkImpl:551 Link 34921-45752-45840 too small: enlarge storage capacity from: 1.7645489741850044 Vehicles to: 2.315970528617819 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,622  WARN QLinkImpl:551 Link 37383-11335 too small: enlarge storage capacity from: 1.5531890938932802 Vehicles to: 1.6308485485879445 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,810  WARN QLinkImpl:551 Link 45841-45753-34922 too small: enlarge storage capacity from: 1.7645489741850044 Vehicles to: 2.315970528617819 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,825  WARN QLinkImpl:551 Link 57067 too small: enlarge storage capacity from: 1.0 Vehicles to: 1.1638960069399449 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,825  WARN QLinkImpl:551 Link 57068 too small: enlarge storage capacity from: 1.0 Vehicles to: 1.1638960069399449 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,841  WARN QLinkImpl:551 Link 65461 too small: enlarge storage capacity from: 1.3753882010923206 Vehicles to: 1.444157611146937 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,841  WARN QLinkImpl:551 Link 65580-65579 too small: enlarge storage capacity from: 1.5910421259224616 Vehicles to: 1.670594232218585 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-15 14:05:41,841  WARN QLinkImpl:554 Additional warnings of this type are suppressed.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:05:42,028  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-15 14:06:54,317  WARN ExpBetaPlanChanger:78 Would make sense to revise this once more.  See comments in code.  kai, nov08
+2014-08-15 14:26:10,734  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 14:46:29,610  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 15:07:11,450  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 15:28:21,321  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 15:51:03,653  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 16:12:56,405  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 16:32:33,327  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 16:51:23,001  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 16:58:25,826  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-15 17:05:44,850  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).

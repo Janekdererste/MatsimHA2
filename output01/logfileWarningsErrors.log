@@ -1,16 +1,37 @@
-2014-07-24 11:06:02,268  WARN OutputDirectoryHierarchy:164 ###########################################################
-2014-07-24 11:06:02,268  WARN OutputDirectoryHierarchy:165 ### THE CONTROLER WILL OVERWRITE FILES IN:
-2014-07-24 11:06:02,282  WARN OutputDirectoryHierarchy:166 ### output01
-2014-07-24 11:06:02,282  WARN OutputDirectoryHierarchy:167 ###########################################################
-2014-07-24 11:07:47,743  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,756  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,756  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,756  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,756  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,756  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,756  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,757  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,757  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:07:47,757  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
-2014-07-24 11:08:07,456  WARN ExpBetaPlanChanger:78 Would make sense to revise this once more.  See comments in code.  kai, nov08
-2014-07-24 11:13:51,368  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 10:55:28,137  WARN OutputDirectoryHierarchy:164 ###########################################################
+2014-08-14 10:55:28,137  WARN OutputDirectoryHierarchy:165 ### THE CONTROLER WILL OVERWRITE FILES IN:
+2014-08-14 10:55:28,137  WARN OutputDirectoryHierarchy:166 ### output01
+2014-08-14 10:55:28,137  WARN OutputDirectoryHierarchy:167 ###########################################################
+2014-08-14 11:15:46,781  WARN QLinkImpl:551 Link 34921-45752-45840 too small: enlarge storage capacity from: 2.646823461277507 Vehicles to: 2.977676393937195 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:15:46,813  WARN QLinkImpl:551 Link 45841-45753-34922 too small: enlarge storage capacity from: 2.646823461277507 Vehicles to: 2.977676393937195 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:15:46,856  WARN QLinkImpl:551 Link 57067 too small: enlarge storage capacity from: 1.1084723875618523 Vehicles to: 1.4964377232085004 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:15:46,857  WARN QLinkImpl:551 Link 57068 too small: enlarge storage capacity from: 1.1084723875618523 Vehicles to: 1.4964377232085004 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:15:46,888  WARN QLinkImpl:551 Link 67527 too small: enlarge storage capacity from: 1.1938147351839483 Vehicles to: 1.6116498924983305 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:15:46,889  WARN QLinkImpl:551 Link 67528 too small: enlarge storage capacity from: 1.1938147351839483 Vehicles to: 1.6116498924983305 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:15:47,113  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,114  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,114  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,115  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,115  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,116  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,116  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,117  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,117  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:15:47,117  WARN QVehicle:73 No VehicleCapacity set in Vehicle. Use default value of 4.
+2014-08-14 11:18:33,382  WARN ExpBetaPlanChanger:78 Would make sense to revise this once more.  See comments in code.  kai, nov08
+2014-08-14 11:21:32,825  WARN QLinkImpl:551 Link 34921-45752-45840 too small: enlarge storage capacity from: 2.646823461277507 Vehicles to: 2.977676393937195 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:21:32,841  WARN QLinkImpl:551 Link 45841-45753-34922 too small: enlarge storage capacity from: 2.646823461277507 Vehicles to: 2.977676393937195 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:21:32,856  WARN QLinkImpl:551 Link 57067 too small: enlarge storage capacity from: 1.1084723875618523 Vehicles to: 1.4964377232085004 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:21:32,856  WARN QLinkImpl:551 Link 57068 too small: enlarge storage capacity from: 1.1084723875618523 Vehicles to: 1.4964377232085004 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:21:32,872  WARN QLinkImpl:551 Link 67527 too small: enlarge storage capacity from: 1.1938147351839483 Vehicles to: 1.6116498924983305 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2014-08-14 11:21:32,872  WARN QLinkImpl:554 Additional warnings of this type are suppressed.
+2014-08-14 12:10:58,222  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 13:09:30,997  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 14:05:30,828  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 14:56:27,860  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 15:47:52,537  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 16:38:25,225  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 17:14:40,946  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 17:41:37,214  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 17:51:20,339  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
+2014-08-14 18:01:00,886  WARN MGC:160 Assuming that coordinates are in longitude first notation, i.e. (longitude, latitude).
