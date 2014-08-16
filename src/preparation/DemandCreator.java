@@ -132,7 +132,7 @@ public class DemandCreator {
 		Activity home = pf.createActivityFromCoord("home", homeCoord);
 		
 		// create random time to leave home
-		double start = Math.random() + timeRoot; // starting time between 6 and 9
+		double start = Math.random() + timeRoot; // starting time 
 		double end = Math.random() * 3 + 7; // end time between 7 and 10 hours
 											// later than start
 
